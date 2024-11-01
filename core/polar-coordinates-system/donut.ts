@@ -6,7 +6,7 @@ function renderArcs(cx: number, cy: number, r: number, data: DataMap) {
   const paths: SVGPathElement[] = []
   const starts: Coordinates[] = []
 
-  Object.entries(data).reduce((acc, [key, val], index) => {
+  Object.values(data).reduce((acc, val, index) => {
     if (index === 0) {
       starts.push({ x: cx, y: cy - r })
     }
@@ -25,12 +25,10 @@ function renderArcs(cx: number, cy: number, r: number, data: DataMap) {
       'd',
       `M ${start.x} ${start.y} A ${r} ${r} 0 ${largeArcFlag} 1 ${end.x} ${end.y}`
     )
-    path.setAttribute('data-key', key)
-    path.setAttribute('data-value', val.toString())
     paths.push(path)
 
-    const far = calculateArcEndPoint(0, 0, 1, acc - percentage * 0.5)
-    path.style.transform = `translate(${far.x}px, ${far.y}px)`
+    // const far = calculateArcEndPoint(0, 0, 1, acc - percentage * 0.5)
+    // path.style.transform = `translate(${far.x}px, ${far.y}px)`
 
     return acc
   }, 0)

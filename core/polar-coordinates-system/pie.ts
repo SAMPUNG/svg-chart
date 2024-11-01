@@ -37,8 +37,8 @@ export function renderPie(svg: SVGElement, data: DataMap, r: number) {
     d += `Z`
     fan.setAttribute('d', d)
 
-    const far = calculateArcEndPoint(0, 0, 1, acc - percentage * 0.5)
-    fan.style.transform = `translate(${far.x}px, ${far.y}px)`
+    // const far = calculateArcEndPoint(0, 0, 1, acc - percentage * 0.5)
+    // fan.style.transform = `translate(${far.x}px, ${far.y}px)`
 
     // const tooltip = document.createElementNS(
     //   'http://www.w3.org/2000/svg',
@@ -71,11 +71,10 @@ export function renderPie(svg: SVGElement, data: DataMap, r: number) {
       // tooltip.style.visibility = 'visible'
       const tip = document.createElement('div')
       tip.classList.add('jsc-tip')
-      tip.style.position = 'absolute'
       const rect = fan.getBoundingClientRect()
+      console.dir(fan)
       tip.style.left = `${rect.x + rect.width / 2}px`
       tip.style.top = `${rect.y + rect.height / 2}px`
-      tip.style.pointerEvents = 'none'
 
       tip.textContent = `${key}(${val}%)`
       document.body.appendChild(tip)

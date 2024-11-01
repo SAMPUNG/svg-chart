@@ -6,7 +6,7 @@ function renderArcs(cx: number, cy: number, r: number, data: DataMap) {
   const paths: SVGPathElement[] = []
   const points: Coordinates[] = []
 
-  Object.entries(data).reduce((acc, [key, val], index) => {
+  Object.values(data).reduce((acc, val, index) => {
     if (index === 0) {
       points.push({ x: cx - r, y: cy })
     }
@@ -25,8 +25,6 @@ function renderArcs(cx: number, cy: number, r: number, data: DataMap) {
       'd',
       `M ${start.x} ${start.y} A ${r} ${r} 0 0 1 ${end.x} ${end.y}`
     )
-    path.setAttribute('data-key', key)
-    path.setAttribute('data-value', val.toString())
     paths.push(path)
 
     return acc

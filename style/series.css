@@ -1,0 +1,28 @@
+.jsc-series:nth-child(1) {
+  fill: dodgerblue;
+  stroke: dodgerblue;
+}
+.jsc-series:nth-child(2) {
+  fill: crimson;
+  stroke: crimson;
+}
+.jsc-series:nth-child(3) {
+  fill: limegreen;
+  stroke: limegreen;
+}
+.jsc-series:nth-child(4) {
+  fill: blueviolet;
+  stroke: blueviolet;
+}
+.jsc-series:nth-child(5) {
+  fill: hotpink;
+  stroke: hotpink;
+}
+.jsc-series:nth-child(6) {
+  fill: lawngreen;
+  stroke: lawngreen;
+}
+.jsc-series:nth-child(7) {
+  fill: goldenrod;
+  stroke: goldenrod;
+}

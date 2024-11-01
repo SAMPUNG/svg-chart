@@ -1,0 +1,12 @@
+.jsc-axis {
+  opacity: 0.2;
+  stroke: white;
+  stroke-width: 1;
+}
+
+.jsc-split {
+  opacity: 0.1;
+  stroke: white;
+  stroke-dasharray: 1;
+  stroke-width: 0.25;
+}

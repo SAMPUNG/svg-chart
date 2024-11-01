@@ -24,17 +24,19 @@
       fill: black;
       fill-opacity: 0.25;
     }
+
     .jsc-tooltip-text {
       fill: white;
       font-size: 8px;
     }
   </style>
   <g class="jsc-pie">
-    <path class="jsc-fan" d="M 128 64L 128.000000 4.000000A 60 60 0 1 1 99.999961 117.065976Z"></path>
-    <path class="jsc-fan" d="M 128 64L 99.999961 117.065976A 60 60 0 0 1 84.972092 22.183746Z"></path>
-    <path class="jsc-fan" d="M 128 64L 84.972092 22.183746A 60 60 0 0 1 128.000000 4.000000Z"></path>
+    <path class="jsc-fan" d="M128 64 L128 0 A64 64 0 1 1 79.99289154365059 106.32395938071372Z" />
+    <path class="jsc-fan"
+      d="M128 64 L79.99289154365059 106.32395938071372 A64 64 0 0 1 78.68715246234947 23.204864656083885Z" />
+    <path class="jsc-fan" d="M128 64 L78.68715246234947 23.204864656083885 A64 64 0 0 1 128 0.3Z" />
   </g>
-  <g class="jsc-tooltip">
+  <!-- <g class="jsc-tooltip">
     <rect class="jsc-tooltip-mask" x="160.16046089837732" y="64.45961168761784" width="45" height="10"></rect>
     <text class="jsc-tooltip-text" x="162.16046089837732" y="72.45961168761784">A(63.5%)</text>
   </g>
@@ -45,5 +47,5 @@
   <g class="jsc-tooltip">
     <rect class="jsc-tooltip-mask" x="103.16046089837732" y="2.185678188853055" width="45" height="10"></rect>
     <text class="jsc-tooltip-text" x="105.2578776997147" y="10.185678188853055">C(14%)</text>
-  </g>
+  </g> -->
 </svg>
