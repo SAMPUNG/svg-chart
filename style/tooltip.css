@@ -2,14 +2,14 @@
   position: relative;
 }
 
-.jsc-item {
+.jsc-interactive {
   cursor: pointer;
 }
-.jsc-item:hover {
+.jsc-interactive:hover {
   opacity: 0.5;
 }
 
-.jsc-tip {
+.jsc-tooltip {
   background: rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(4px);
   border: 1px solid rgba(255, 255, 255, 0.25);
@@ -18,9 +18,9 @@
   color: white;
   font-size: 12px;
   padding: 4px 8px;
+  pointer-events: none;
   position: fixed;
 }
-
 .jsc-tooltip-mask {
   fill: black;
   fill-opacity: 0.25;
