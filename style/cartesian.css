@@ -1,0 +1,41 @@
+.jsc-axis {
+  opacity: 0.2;
+  stroke: white;
+  stroke-width: 1;
+}
+
+.jsc-item {
+  cursor: pointer;
+}
+.jsc-item:hover {
+  opacity: 0.5;
+}
+
+.jsc-line {
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: line-flow;
+  animation-timing-function: linear;
+  fill: none !important;
+
+  stroke: cyan;
+  stroke-dasharray: 4;
+  stroke-dashoffset: 0;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.jsc-marker {
+  fill: cyan;
+}
+
+.jsc-split {
+  opacity: 0.1;
+  stroke: white;
+  stroke-dasharray: 1;
+  stroke-width: 0.25;
+}
+
+.jsc-spots {
+  stroke: none;
+}

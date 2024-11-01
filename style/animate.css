@@ -1,0 +1,8 @@
+@keyframes line-flow {
+  from {
+    stroke-dashoffset: 99;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}

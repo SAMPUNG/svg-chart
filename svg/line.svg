@@ -1,0 +1,42 @@
+<svg viewBox="0 0 256 128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker
+      id="ring"
+      markerWidth="4"
+      markerHeight="4"
+      refX="2"
+      refY="2"
+      markerUnits="strokeWidth">
+      <circle cx="2" cy="2" r="2" stroke="none" fill="context-stroke" />
+    </marker>
+    <marker
+      id="arrow"
+      viewBox="0 0 10 10"
+      refX="5"
+      refY="5"
+      markerWidth="6"
+      markerHeight="6"
+      orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" />
+    </marker>
+  </defs>
+  <polyline
+    fill="none"
+    marker-end="url(#ring)"
+    marker-mid="url(#ring)"
+    marker-start="url(#ring)"
+    points="5,15 10,25 15,45 150,75 200,10"
+    stroke="cyan"
+    stroke-dasharray="4"
+    stroke-dashoffset="0"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  >
+    <animate
+      attributeName="stroke-dashoffset"
+      dur="3s"
+      repeatCount="indefinite"
+      values="99;0"
+    />
+  </polyline>
+</svg>

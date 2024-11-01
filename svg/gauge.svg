@@ -1,0 +1,26 @@
+<svg viewBox="0 0 256 128" xmlns="http://www.w3.org/2000/svg">
+  <rect width="256" height="128" fill="transparent" stroke="red" />
+  <g>
+    <path
+      d="M128 8 A56 56 0 0 1 177.8963653545486 89.42346798541462"
+      fill="transparent"
+      stroke="cyan"
+      stroke-width="16"
+    >
+    </path>
+    <path
+      d="M177.8963653545486 89.42346798541462 A56 56 0 0 1 151.0448040818861 115.03858349158494"
+      fill="transparent"
+      stroke="lime"
+      stroke-width="16"
+    >
+    </path>
+    <path
+      d="M151.0448040818861 115.03858349158494 A56 56 0 0 1 128 120"
+      fill="transparent"
+      stroke="pink"
+      stroke-width="16"
+    >
+    </path>
+  </g>
+</svg>

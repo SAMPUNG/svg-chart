@@ -1,0 +1,49 @@
+<svg id="pie" viewBox="0 0 256 128" xmlns="http://www.w3.org/2000/svg">
+  <style id="color">
+    .jsc-fan:nth-child(1) {
+      fill: deepskyblue;
+    }
+
+    .jsc-fan:nth-child(2) {
+      fill: orangered;
+    }
+
+    .jsc-fan:nth-child(3) {
+      fill: hotpink;
+    }
+
+    .jsc-fan:nth-child(4) {
+      fill: darkcyan;
+    }
+
+    .jsc-fan:nth-child(5) {
+      fill: goldenrod;
+    }
+
+    .jsc-tooltip-mask {
+      fill: black;
+      fill-opacity: 0.25;
+    }
+    .jsc-tooltip-text {
+      fill: white;
+      font-size: 8px;
+    }
+  </style>
+  <g class="jsc-pie">
+    <path class="jsc-fan" d="M 128 64L 128.000000 4.000000A 60 60 0 1 1 99.999961 117.065976Z"></path>
+    <path class="jsc-fan" d="M 128 64L 99.999961 117.065976A 60 60 0 0 1 84.972092 22.183746Z"></path>
+    <path class="jsc-fan" d="M 128 64L 84.972092 22.183746A 60 60 0 0 1 128.000000 4.000000Z"></path>
+  </g>
+  <g class="jsc-tooltip">
+    <rect class="jsc-tooltip-mask" x="160.16046089837732" y="64.45961168761784" width="45" height="10"></rect>
+    <text class="jsc-tooltip-text" x="162.16046089837732" y="72.45961168761784">A(63.5%)</text>
+  </g>
+  <g class="jsc-tooltip">
+    <rect class="jsc-tooltip-mask" x="74.16046089837732" y="64.13233222503442" width="45" height="10"></rect>
+    <text class="jsc-tooltip-text" x="76.6544750963481" y="72.13233222503442">B(32.5%)</text>
+  </g>
+  <g class="jsc-tooltip">
+    <rect class="jsc-tooltip-mask" x="103.16046089837732" y="2.185678188853055" width="45" height="10"></rect>
+    <text class="jsc-tooltip-text" x="105.2578776997147" y="10.185678188853055">C(14%)</text>
+  </g>
+</svg>

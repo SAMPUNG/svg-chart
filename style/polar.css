@@ -1,0 +1,35 @@
+.jsc-arc {
+  cursor: pointer;
+  fill: none !important;
+}
+.jsc-donut-arc {
+  stroke-width: 16;
+}
+.jsc-gauge-arc {
+  stroke-width: 32;
+}
+
+.jsc-fan {
+  cursor: pointer;
+  stroke: none !important;
+}
+
+.jsc-tip {
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 4px;
+  box-shadow: 0px 0px 32px 4px rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 12px;
+  padding: 4px 8px;
+}
+
+.jsc-tooltip-mask {
+  fill: black;
+  fill-opacity: 0.25;
+}
+.jsc-tooltip-text {
+  fill: white;
+  font-size: 8px;
+}

@@ -1,0 +1,59 @@
+<svg viewBox="0 0 256 128" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <path
+      d="M64 8 A56 56 0 1 1 22.50496699593396 101.60534850245998"
+      fill="transparent"
+      stroke="cyan"
+      stroke-dasharray="225"
+      stroke-dashoffset="0"
+      stroke-width="16"
+    >
+      <animate
+        attributeName="stroke-dashoffset"
+        dur="2.6s"
+        repeatCount="indefinite"
+        values="225;0;0;0"
+      />
+    </path>
+    <path
+      d="M22.50496699593396 101.60534850245998 A56 56 0 0 1 47.16842757239534 10.589344044336073"
+      fill="transparent"
+      stroke="lime"
+      stroke-dasharray="152"
+      stroke-dashoffset="0"
+      stroke-width="16"
+    >
+      <animate
+        attributeName="stroke-dashoffset"
+        dur="2.6s"
+        repeatCount="indefinite"
+        values="152;152;0;0"
+      />
+    </path>
+    <path
+      d="M47.16842757239534 10.589344044336073 A56 56 0 0 1 64 8"
+      fill="transparent"
+      stroke="pink"
+      stroke-dasharray="50"
+      stroke-dashoffset="0"
+      stroke-width="16"
+    >
+      <animate
+        attributeName="stroke-dashoffset"
+        dur="2.6s"
+        repeatCount="indefinite"
+        values="50;50;50;0"
+      />
+    </path>
+  </g>
+  <g>
+    <rect fill="cyan" x="144" y="24" width="10" height="10" />
+    <rect fill="lime" x="144" y="56" width="10" height="10" />
+    <rect fill="pink" x="144" y="88" width="10" height="10" />
+  </g>
+  <g font-size="10">
+    <text fill="cyan" x="160" y="32">(127)63.5%</text>
+    <text fill="lime" x="160" y="64">(45)21.5%</text>
+    <text fill="pink" x="160" y="96">(28)14%</text>
+  </g>
+</svg>
