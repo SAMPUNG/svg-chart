@@ -20,7 +20,7 @@ export function renderDonut(svg: SVGElement, data: DataMap, r: number) {
     points.push(end)
 
     const arc = document.createElementNS('http://www.w3.org/2000/svg', 'path')
-    arc.classList.add('jsc-series', 'jsc-interactive', 'jsc-arc', 'jsc-donut-arc')
+    arc.classList.add('jsc-dyeable', 'jsc-interactive', 'jsc-arc', 'jsc-donut-arc')
     arc.setAttribute('data-key', key)
     arc.setAttribute('data-value', val.toString())
     g.appendChild(arc)

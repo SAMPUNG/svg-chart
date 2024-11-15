@@ -28,11 +28,13 @@
     "types": ["vitest/jsdom"]
   },
   "include": [
+    "components/**/*.ts",
     "core/**/*.ts",
     "spec/**/*.spec.ts",
     "types/**/*.d.ts",
+    "utils/**/*.ts",
     "app.ts",
     "vite-env.d.ts",
     "vite.config.ts"
-  ]
+, "utils/math.ts"  ]
 }

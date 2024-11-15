@@ -18,9 +18,9 @@ export function rotateCoordinates(
   y: number,
   cx: number,
   cy: number,
-  angle: number
+  percentage: number
 ): Coordinates {
-  const radians = (angle * Math.PI) / 180
+  const radians = Math.PI * 2 * percentage
   return {
     x: cx + (x - cx) * Math.cos(radians) - (y - cy) * Math.sin(radians),
     y: cy + (x - cx) * Math.sin(radians) + (y - cy) * Math.cos(radians),

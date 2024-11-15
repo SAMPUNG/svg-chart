@@ -2,7 +2,7 @@ import type { DataSet, MarkerType } from '~/types/data'
 
 export function createSpots(points: DataSet, type: MarkerType) {
   const spots = document.createElementNS('http://www.w3.org/2000/svg', 'g')
-  spots.classList.add('jsc-series', 'jsc-spots')
+  spots.classList.add('jsc-dyeable', 'jsc-spots')
 
   let handler: (x: number, y: number) => SVGElement = createCircle
   switch (type) {

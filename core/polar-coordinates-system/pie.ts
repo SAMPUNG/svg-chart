@@ -20,7 +20,7 @@ export function renderPie(svg: SVGElement, data: DataMap, r: number) {
     points.push(end)
 
     const fan = document.createElementNS('http://www.w3.org/2000/svg', 'path')
-    fan.classList.add('jsc-series', 'jsc-interactive', 'jsc-fan')
+    fan.classList.add('jsc-dyeable', 'jsc-interactive', 'jsc-fan')
     fan.setAttribute('data-key', key)
     fan.setAttribute('data-value', val.toString())
     g.appendChild(fan)

@@ -17,11 +17,11 @@ export function renderGauge(svg: SVGElement, data: DataMap, r: number) {
 
     const start = points[index]
     const prevEnd = calculateArcEndPoint(cx, cy, r, acc)
-    const end = rotateCoordinates(prevEnd.x, prevEnd.y, cx, cy, -90) 
+    const end = rotateCoordinates(prevEnd.x, prevEnd.y, cx, cy, -0.25) 
     points.push(end)
 
     const arc = document.createElementNS('http://www.w3.org/2000/svg', 'path')
-    arc.classList.add('jsc-series', 'jsc-interactive', 'jsc-arc', 'jsc-gauge-arc')
+    arc.classList.add('jsc-dyeable', 'jsc-interactive', 'jsc-arc', 'jsc-gauge-arc')
     arc.setAttribute('data-key', key)
     arc.setAttribute('data-value', val.toString())
     g.appendChild(arc)

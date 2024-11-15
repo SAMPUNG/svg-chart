@@ -5,7 +5,7 @@ export function createLine(points: DataSet) {
     'http://www.w3.org/2000/svg',
     'polyline'
   )
-  polyline.classList.add('jsc-series', 'jsc-line')
+  polyline.classList.add('jsc-dyeable', 'jsc-line')
   polyline.setAttribute('points', points.join(' '))
   return polyline
 }

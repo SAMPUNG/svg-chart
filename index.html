@@ -13,12 +13,17 @@
     <title>SVG Chart</title>
     <style>
       html, body { background: #040404; margin: 0; padding: 0; }
+      svg-pie { display: block; }
       svg { background: rgba(255, 255, 255, 0.1); height: 512px; margin: 2rem; width: 1024px; }
     </style>
+    <script type="module" src="components/pie/index.ts"></script>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <svg-pie id="demo-pie" r="64" values="127,65,8">
+        <div role="tooltip">hello, world</div>
+      </svg-pie>
+    </div>
     <script type="module" src="app.ts"></script>
-    <div class="jsc-tooltip" id="tooltip"></div>
   </body>
 </html>

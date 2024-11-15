@@ -1,11 +1,23 @@
+.jsc-arc {
+  cursor: pointer;
+  fill: none !important;
+}
+
+.jsc-chart {
+  position: relative;
+}
+
+.jsc-donut-arc {
+  stroke-width: 16;
+}
+
 .jsc-dyeable {
   cursor: pointer;
-  opacity: 0.5;
+  opacity: 0.75;
 }
 .jsc-dyeable:hover {
   opacity: 1;
 }
-
 .jsc-dyeable:nth-child(1) {
   fill: dodgerblue;
   stroke: dodgerblue;

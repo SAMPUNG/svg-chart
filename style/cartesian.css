@@ -4,7 +4,6 @@
   animation-name: line-flow;
   animation-timing-function: linear;
   fill: none !important;
-
   stroke: cyan;
   stroke-dasharray: 4;
   stroke-dashoffset: 0;

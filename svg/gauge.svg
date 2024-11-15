@@ -9,48 +9,48 @@
       stroke-width: 32;
     }
 
-    .jsc-series:nth-child(1) {
+    .jsc-dyeable:nth-child(1) {
       fill: dodgerblue;
       stroke: dodgerblue;
     }
 
-    .jsc-series:nth-child(2) {
+    .jsc-dyeable:nth-child(2) {
       fill: crimson;
       stroke: crimson;
     }
 
-    .jsc-series:nth-child(3) {
+    .jsc-dyeable:nth-child(3) {
       fill: limegreen;
       stroke: limegreen;
     }
 
-    .jsc-series:nth-child(4) {
+    .jsc-dyeable:nth-child(4) {
       fill: blueviolet;
       stroke: blueviolet;
     }
 
-    .jsc-series:nth-child(5) {
+    .jsc-dyeable:nth-child(5) {
       fill: hotpink;
       stroke: hotpink;
     }
 
-    .jsc-series:nth-child(6) {
+    .jsc-dyeable:nth-child(6) {
       fill: lawngreen;
       stroke: lawngreen;
     }
 
-    .jsc-series:nth-child(7) {
+    .jsc-dyeable:nth-child(7) {
       fill: goldenrod;
       stroke: goldenrod;
     }
   </style>
   <g class="jsc-gauge">
-    <path class="jsc-series jsc-arc jsc-gauge-arc" d="M 28 128 A 100 100 0 0 1 152 30"
+    <path class="jsc-dyeable jsc-arc jsc-gauge-arc" d="M 28 128 A 100 100 0 0 1 152 30"
       data-key="A" data-value="63.5"></path>
-    <path class="jsc-series jsc-arc jsc-gauge-arc"
+    <path class="jsc-dyeable jsc-arc jsc-gauge-arc"
       d="M 152 30 A 100 100 0 0 1 220 89" data-key="B"
       data-value="32.5"></path>
-    <path class="jsc-series jsc-arc jsc-gauge-arc" d="M 220 89 A 100 100 0 0 1 228 128"
+    <path class="jsc-dyeable jsc-arc jsc-gauge-arc" d="M 220 89 A 100 100 0 0 1 228 128"
       data-key="C" data-value="14"></path>
   </g>
 </svg>

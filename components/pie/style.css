@@ -1,11 +1,14 @@
+.jsc-chart {
+  position: relative;
+}
+
 .jsc-dyeable {
   cursor: pointer;
-  opacity: 0.5;
+  opacity: 0.75;
 }
 .jsc-dyeable:hover {
   opacity: 1;
 }
-
 .jsc-dyeable:nth-child(1) {
   fill: dodgerblue;
   stroke: dodgerblue;
@@ -33,4 +36,9 @@
 .jsc-dyeable:nth-child(7) {
   fill: goldenrod;
   stroke: goldenrod;
+}
+
+.jsc-fan {
+  cursor: pointer;
+  stroke: none !important;
 }

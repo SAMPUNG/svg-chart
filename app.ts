@@ -1,7 +1,6 @@
 import { renderGauge } from './core/polar-coordinates-system/gauge'
 import { createSVG } from './core/render'
 import { renderDonut } from './core/polar-coordinates-system/donut'
-import { renderPie } from './core/polar-coordinates-system/pie'
 import { createAxis } from './core/cartesian-coordinate-system/axis'
 import { createLine } from './core/cartesian-coordinate-system/line'
 import { createSpots } from './core/cartesian-coordinate-system/spots'
@@ -33,10 +32,10 @@ cartesian.append(
 )
 registerTooltip(cartesian, tooltip, showCartesianTooltip, hideTooltip)
 
-const pie = createSVG('pie', 256, 128)
-app.appendChild(pie)
-renderPie(pie, datamap, 60)
-registerTooltip(pie, tooltip, showPolarTooltip, hideTooltip)
+// const pie = createSVG('pie', 256, 128)
+// app.appendChild(pie)
+// renderPie(pie, datamap, 60)
+// registerTooltip(pie, tooltip, showPolarTooltip, hideTooltip)
 
 const donut = createSVG('donut', 256, 128)
 app.appendChild(donut)
